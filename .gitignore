@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Maven build output and local secrets
+user-form-backend/target/
+user-form-backend/.env
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
